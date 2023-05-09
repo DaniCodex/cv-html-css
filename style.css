@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container-cv {
+    padding-top: 30px;
+    margin: auto;
+    width: 80%;
+}
+
+.cv {
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    background-color: #f5f7fa;  
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #333;
+}
+
+.head-social-media {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.social-media i {
+    color: #727070;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    background-color: #4b8adc;
+}
+     
+.descripcion {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.descripcion {
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.container-buttons {
+    margin-top: 40px;
+}
+
+.container-buttons button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #555;
+}
+
+.container-buttons button:nth-child(2) {
+    margin-left: 10px;
+    background-color: #37bc9b;
+    color: #fff;
+}
+
+header img {
+    transform: translateY(70px);
+    width: 300px;
+    border: solid 10px #fff;
+}
+
+main {
+    padding-top: 70px;
+    height: 100%;
+}
+
+.information {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.aboutme {
+    width: 500px;
+    padding-right: 50px;
+}
+
+.aboutme h2 {
+    margin-bottom: 15px;
+    color: #222;
+    font-weight: bolder;
+}
+
+.datos {
+    padding-left: 20px;
+}
+
+.datos p {
+    font-weight: 600;
+}
+
+.datos span {
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+.container-cursos {
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill h2 {
+    color: #333;
+    margin: 30px 0px 30px 40px;
+    
+}
+.cursos-frontend,
+.cursos-diseños {
+    width: 400px;
+    margin: 0 40px;
+}
+
+.cursos-info-f .barra,
+.cursos-info-d .barra {
+    background-color: #e8eaed;
+    height: 20px;
+}
+
+.cursos-info-d p,
+.cursos-info-f p {
+    margin: 10px 0;
+}
+
+.cursos-info-f .barra div {
+    background-color: #4a89dc;
+    height: 100%;
+}
+
+.cursos-info-f .barra-uno div {
+    width: 90%;
+}
+
+.cursos-info-f .barra-dos div {
+    width: 70%;
+}
+
+.cursos-info-f .barra-tres div {
+    width: 40%;
+}
+
+.cursos-info-d .barra div {
+    height: 100%;
+    background-color: #3abd9c;
+}
+
+.cursos-info-d .barra-uno div {
+    width: 63%;
+}
+
+.cursos-info-d .barra-dos div {
+    width: 95%;
+}
+
+.cursos-info-d .barra-tres div {
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
